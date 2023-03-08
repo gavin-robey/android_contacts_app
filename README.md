@@ -33,9 +33,13 @@ git clone git@github.com:gavin-robey/android_contacts_app.git
 
 7. Once download is complete, click "run app" to run the app
 
-<img width="1440" alt="runProject" src="https://user-images.githubusercon![Uploading projectRuning.png…]()
-tent.com/106276626/223861851-fde6b524-23f6-435e-8805-f48b37b333ab.png">
 
+
+<img width="1440" alt="runProject" src="https://user-images.githubusercontent.com/106276626/223862364-d8bf8848-b9ad-413d-9f52-f4b734b262be.png">
+
+
+
+![projectRuning](https://user-images.githubusercontent.com/106276626/223862608-e8f38c58-ce75-4182-a65c-d3ee7d0b6ef0.png)
 
 
 
