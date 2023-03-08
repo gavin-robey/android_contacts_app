@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".View.ContactInfoFragment">
+
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/newContact"
+        app:layout_constraintStart_toStartOf="@+id/newContact"
+        app:layout_constraintTop_toTopOf="@+id/newContact" />
+
+
+    <TextView
+        android:id="@+id/newContact"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/endBlue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:gravity="center" />
+
+    <TextView
+        android:id="@+id/nameTag"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:text="TV"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newContact" />
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:autoSizeMaxTextSize="40sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/endBlue"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTag" />
+
+    <TextView
+        android:id="@+id/buttonBar"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/white_button"
+        android:elevation="15dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullName" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/white_button"
+        android:elevation="15dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBar" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/white_button"
+        android:elevation="15dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
+
+    <TextView
+        android:id="@+id/phoneButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/phone_button"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBar"
+        app:layout_constraintEnd_toStartOf="@+id/textButton"
+        app:layout_constraintTop_toTopOf="@+id/buttonBar" />
+
+    <TextView
+        android:id="@+id/textButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/text_button"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBar"
+        app:layout_constraintEnd_toStartOf="@+id/emailButton"
+        app:layout_constraintTop_toTopOf="@+id/buttonBar"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/emailButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/email_button"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBar"
+        app:layout_constraintEnd_toStartOf="@+id/editButton"
+        app:layout_constraintTop_toTopOf="@+id/buttonBar"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/editButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edit_contact"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBar"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBar"
+        app:layout_constraintTop_toTopOf="@+id/buttonBar" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="Phone Number: "
+        android:textColor="@color/darkGrey"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/phoneNumber"
+        app:layout_constraintTop_toTopOf="@+id/phoneNumber" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="No Phone Number"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/phoneNumber" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="Email: "
+        android:textColor="@color/darkGrey"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneNumber"
+        app:layout_constraintStart_toStartOf="@+id/phoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/emailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="No Email"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneNumber"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="Company:  "
+        android:textColor="@color/darkGrey"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toTopOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/companyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="No Company"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="Birthday:  "
+        android:textColor="@color/darkGrey"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/birthdayView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="No Birthday"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/addressView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="Address:  "
+        android:textColor="@color/darkGrey"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/addressView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/cabin"
+        android:text="No Address"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/companyView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.usu.A02340346.View.ContactFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_newContactFragment"
+            app:destination="@id/newContactFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_contactInformationCard"
+            app:destination="@id/contactInformationCard"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_editContact2"
+            app:destination="@id/editContactFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/newContactFragment"
+        android:name="com.usu.A02340346.View.NewContactFragment"
+        android:label="fragment_new_contact"
+        tools:layout="@layout/new_contact_fragment" />
+    <fragment
+        android:id="@+id/contactInformationCard"
+        android:name="com.usu.A02340346.View.ContactInfoFragment"
+        android:label="fragment_contact_information_card"
+        tools:layout="@layout/contact_info_fragment" >
+        <action
+            android:id="@+id/action_contactInformationCard_to_editContactFragment"
+            app:destination="@id/editContactFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/editContactFragment"
+        android:name="com.usu.A02340346.View.editContact"
+        android:label="editContactFragment"
+        tools:layout="@layout/edit_contact_fragment" />
+</navigation>

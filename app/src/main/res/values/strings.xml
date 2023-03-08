@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AlgoSim</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="bubble_sort_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis nunc, auctor vel lacus quis, egestas posuere urna. Vivamus rhoncus nunc augue, id blandit arcu aliquet in. Ut non felis eleifend, semper nulla maximus, aliquam magna. Donec a mauris eget ligula tempor consequat sed at urna. Donec congue interdum molestie. Ut fermentum porttitor lectus a lobortis. Praesent luctus ante ac lacinia interdum.</string>
+    <string-array name="amountOptions">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+</resources>

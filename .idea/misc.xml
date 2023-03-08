@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_hamburger.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/actual_delete.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/add.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/back.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/background_gradient.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/backwords.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/cancel_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/cross.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/delete.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/delete_symbol.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/done_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/done_not_completed.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/drop_down.xml" value="0.171875" />
+        <entry key="app/src/main/res/drawable/edit.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/edit_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/edit_button_small.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/edit_contact.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/email_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/left_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/line.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/manage_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/message.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/new_contact_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/phone.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/phone_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/pink_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/play_button.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/drawable/purple_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/red_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/right_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/small_edit.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/text.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/text_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/white_button.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.2671875" />
+        <entry key="app/src/main/res/drawable/yellow_button.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/contact_card.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/contact_fragment.xml" value="0.24959069992108465" />
+        <entry key="app/src/main/res/layout/contact_info_fragment.xml" value="0.2788843961532904" />
+        <entry key="app/src/main/res/layout/demonstration_fragment.xml" value="0.23052536231884058" />
+        <entry key="app/src/main/res/layout/edit_contact_fragment.xml" value="0.1539855072463768" />
+        <entry key="app/src/main/res/layout/fragment_bubble.xml" value="0.2284121905530461" />
+        <entry key="app/src/main/res/layout/fragment_drawer.xml" value="0.19157608695652173" />
+        <entry key="app/src/main/res/layout/fragment_insertion.xml" value="0.19157608695652173" />
+        <entry key="app/src/main/res/layout/fragment_quick.xml" value="0.19157608695652173" />
+        <entry key="app/src/main/res/layout/fragment_selection.xml" value="0.19157608695652173" />
+        <entry key="app/src/main/res/layout/main_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/new_contact.xml" value="0.2676035273496224" />
+        <entry key="app/src/main/res/layout/new_contact_fragment.xml" value="0.3166570417602456" />
+        <entry key="app/src/main/res/layout/selection_fragment.xml" value="0.23052536231884058" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.18795289855072464" />
+        <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.2324074074074074" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/contacts_icon.xml" value="0.2671875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".View.editContact">
+
+    <TextView
+        android:id="@+id/cancel"
+        app:layout_constraintBottom_toBottomOf="@+id/newContact"
+        app:layout_constraintStart_toStartOf="@+id/newContact"
+        app:layout_constraintTop_toTopOf="@+id/newContact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back"
+        android:elevation="20dp" />
+
+    <TextView
+        android:id="@+id/done"
+        app:layout_constraintBottom_toBottomOf="@+id/newContact"
+        app:layout_constraintEnd_toEndOf="@+id/newContact"
+        app:layout_constraintTop_toTopOf="@+id/newContact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/done_button"
+        android:elevation="20dp" />
+
+    <TextView
+        android:id="@+id/newContact"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Edit Contact"
+        android:textColor="@color/endBlue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/white_button"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="48"
+            android:fontFamily="@font/cabin"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/endBlue"
+            android:textCursorDrawable="@color/endBlue"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrey" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="48"
+            android:fontFamily="@font/cabin"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/endBlue"
+            android:textCursorDrawable="@color/endBlue"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrey" />
+
+        <EditText
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="48"
+            android:fontFamily="@font/cabin"
+            android:hint="Company"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/endBlue"
+            android:textCursorDrawable="@color/endBlue"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/white_button"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="48"
+            android:fontFamily="@font/cabin"
+            android:hint="Add Phone"
+            android:inputType="text|number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/endBlue"
+            android:textCursorDrawable="@color/endBlue"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrey" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="48"
+            android:fontFamily="@font/cabin"
+            android:hint="Add Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/endBlue"
+            android:textCursorDrawable="@color/endBlue"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/white_button"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="48"
+            android:fontFamily="@font/cabin"
+            android:hint="Add Address"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/endBlue"
+            android:textCursorDrawable="@color/endBlue"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrey" />
+
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="48"
+            android:fontFamily="@font/cabin"
+            android:hint="Add Birthday"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:textColorHint="@color/endBlue"
+            android:textCursorDrawable="@color/endBlue"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
