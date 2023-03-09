@@ -2,7 +2,7 @@
 
 ## Project Information
 
-This project is a contacts app for andriod that uses Model View View Model to update UI, state, and data to database. Users can add contacts, delete contacts, update contact information, call, email and text all contacts. All actions are done via a fluid UI that is User friendly. All contact information is stored to the device using Room. Below are demo images demonstrating the app in use.
+This project is a Contacts App for Andriod that uses Model View View Model to update UI, state, and data to database. Users can add contacts, delete contacts, update contact information, call, email and text all contacts. All actions are done via a fluid UI that is User-friendly. All contact information is stored to the device using <a href="https://developer.android.com/training/data-storage/room">Room</a>. Below are demo images demonstrating the app in use.
 
 ### Home Page
 * Add contacts by tapping on the blue "+"
@@ -12,9 +12,9 @@ This project is a contacts app for andriod that uses Model View View Model to up
 &nbsp;
 
 <p align="middle">
-  <img width="300" display="inline-block" margin="50px" alt="homePage" src="https://user-images.githubusercontent.com/106276626/224109798-91af21a6-b93b-4a2b-9b78-108451cb2a94.png">
+  <img width="320" alt="homePage" src="https://user-images.githubusercontent.com/106276626/224109798-91af21a6-b93b-4a2b-9b78-108451cb2a94.png">
   <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
-  <img width="298" display="inline-block" margin="50px" alt="delete" src="https://user-images.githubusercontent.com/106276626/224113420-2d7ca31f-afa5-4163-89cf-a8ca690bb66e.png">  
+  <img width="318" alt="delete" src="https://user-images.githubusercontent.com/106276626/224113420-2d7ca31f-afa5-4163-89cf-a8ca690bb66e.png">  
 </p>
 
 &nbsp;
@@ -31,7 +31,7 @@ Users can add the following contact information
 &nbsp;
 
 <p align="center"> 
-<img width="300" alt="createContact" src="https://user-images.githubusercontent.com/106276626/224118637-8447b187-c0d6-4d32-a36c-40395ae0375c.png">
+<img width="320" alt="createContact" src="https://user-images.githubusercontent.com/106276626/224118637-8447b187-c0d6-4d32-a36c-40395ae0375c.png">
 </p>
 
 &nbsp;
@@ -45,7 +45,7 @@ Users can add the following contact information
 &nbsp;
 
 <p align="center"> 
-<img width="300" alt="editContact" src="https://user-images.githubusercontent.com/106276626/224120164-0b69a9aa-083b-46b3-9a6e-134589ac40c0.png">
+<img width="320" alt="editContact" src="https://user-images.githubusercontent.com/106276626/224120164-0b69a9aa-083b-46b3-9a6e-134589ac40c0.png">
 </p>
 
 &nbsp;
@@ -54,8 +54,11 @@ Users can add the following contact information
 * All information can be edited and updated by the user
 * Once Information is updated, click blue checkmark to update
 
+&nbsp;
 
-
+<p align="center"> 
+<img width="320" alt="edit-contact" src="https://user-images.githubusercontent.com/106276626/224128134-a6941731-3387-454b-88ee-20e5647853ce.png">
+</p>
 
 
 
