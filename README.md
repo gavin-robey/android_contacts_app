@@ -5,12 +5,55 @@
 This project is a contacts app for andriod that uses Model View View Model to update UI, state, and data to database. Users can add contacts, delete contacts, update contact information, call, email and text all contacts. All actions are done via a fluid UI that is User friendly. All contact information is stored to the device using Room. Below are demo images demonstrating the app in use.
 
 ### Home Page
-Users can add contacts by tapping on the blue "+", delete contacts by tapping the button with the three dots, then tapping the red "x", and can tap to view contact information all from the home page.
+* Add contacts by tapping on the blue "+"
+* Delete contacts by tapping the button with the three dots, then tapping the red "x"
+* Tap the contact card to view contact information
+
+&nbsp;
 
 <p align="middle">
-  <img width="250" display="inline-block" margin="50px" alt="homePage" src="https://user-images.githubusercontent.com/106276626/224109798-91af21a6-b93b-4a2b-9b78-108451cb2a94.png">
-  <img width="248" display="inline-block" margin="50px" alt="delete" src="https://user-images.githubusercontent.com/106276626/224113420-2d7ca31f-afa5-4163-89cf-a8ca690bb66e.png">  
+  <img width="300" display="inline-block" margin="50px" alt="homePage" src="https://user-images.githubusercontent.com/106276626/224109798-91af21a6-b93b-4a2b-9b78-108451cb2a94.png">
+  <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+  <img width="298" display="inline-block" margin="50px" alt="delete" src="https://user-images.githubusercontent.com/106276626/224113420-2d7ca31f-afa5-4163-89cf-a8ca690bb66e.png">  
 </p>
+
+&nbsp;
+
+### Create Contact
+Users can add the following contact information
+* Full name
+* Phone number
+* Email
+* Company 
+* Address 
+* Birthday
+
+&nbsp;
+
+<p align="center"> 
+<img width="300" alt="createContact" src="https://user-images.githubusercontent.com/106276626/224118637-8447b187-c0d6-4d32-a36c-40395ae0375c.png">
+</p>
+
+&nbsp;
+
+### View Contact
+* Call using the blue call icon
+* Text using the green message icon
+* Email using the blue mail icon
+* Update contact information using the yellow edit icon
+
+&nbsp;
+
+<p align="center"> 
+<img width="300" alt="editContact" src="https://user-images.githubusercontent.com/106276626/224120164-0b69a9aa-083b-46b3-9a6e-134589ac40c0.png">
+</p>
+
+&nbsp;
+
+### Edit Contact
+* All information can be edited and updated by the user
+* Once Information is updated, click blue checkmark to update
+
 
 
 
