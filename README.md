@@ -5,6 +5,15 @@
 This project is a contacts app for andriod that uses Model View View Model to update UI, state, and data to database. Users can add contacts, delete contacts, update contact information, call, email and text all contacts. All actions are done via a fluid UI that is User friendly. All contact information is stored to the device using Room. Below are demo images demonstrating the app in use.
 
 ### Home Page
+Users can add contacts by tapping on the blue "+", delete contacts by tapping the button with the three dots, then tapping the red "x", and can tap to view contact information all from the home page.
+
+<p align="middle">
+  <img width="250" display="inline-block" margin="50px" alt="homePage" src="https://user-images.githubusercontent.com/106276626/224109798-91af21a6-b93b-4a2b-9b78-108451cb2a94.png">
+  <img width="248" display="inline-block" margin="50px" alt="delete" src="https://user-images.githubusercontent.com/106276626/224113420-2d7ca31f-afa5-4163-89cf-a8ca690bb66e.png">  
+</p>
+
+
+
 
 
 ## Build Instructions
