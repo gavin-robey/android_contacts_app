@@ -2,7 +2,7 @@
 
 ## Project Information
 
-This project is a Contacts App for Andriod that uses Model View View Model to update UI, state, and data to database. Users can add contacts, delete contacts, update contact information, call, email and text all contacts. All actions are done via a fluid UI that is User-friendly. All contact information is stored to the device using <a href="https://developer.android.com/training/data-storage/room">Room</a>. Below are demo images demonstrating the app in use.
+This project is a Contacts App for Andriod that uses Model View View Model to update UI, state, and data to a local database. Users can add contacts, delete contacts, update contact information, call, email and text all contacts. All actions are done via a fluid UI that is User-friendly. All contact information is stored to the device using <a href="https://developer.android.com/training/data-storage/room">Room</a>. Below are demo images demonstrating the app in use.
 
 ### Home Page
 * Add contacts by tapping on the blue "+"
